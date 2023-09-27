@@ -133,13 +133,17 @@ img {
 /*=========================================*/
 
 /*===================HERO==================*/
-.hero {
+.hero {}
+
+.hero-container {
     background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
 }
-
-.hero-container {}
 
 .hero-title {
     color: #FFFFFF;
