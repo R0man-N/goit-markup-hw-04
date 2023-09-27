@@ -48,6 +48,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
     background: #FFF;
     align-items: center;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -141,6 +142,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     block-size: cover;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -169,13 +171,13 @@ img {
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    background-color: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -211,6 +213,16 @@ img {
 
 .advantages-item {
     width: calc((100% - 24px * 3) / 4);
+}
+
+.advantages-item-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .advantages-subtitle {
