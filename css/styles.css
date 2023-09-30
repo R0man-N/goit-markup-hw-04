@@ -159,7 +159,7 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    block-size: cover;
+    background-size: cover;
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
