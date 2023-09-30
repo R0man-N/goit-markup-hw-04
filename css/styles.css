@@ -103,6 +103,10 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-menu-list>li>.auto {
+    color: #404bbf;
+}
+
 .auto::after {
     content: '';
     position: absolute;
@@ -150,9 +154,7 @@ img {
 /*=========================================*/
 
 /*===================HERO==================*/
-.hero {}
-
-.hero-container {
+.hero {
     background: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
@@ -161,7 +163,10 @@ img {
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0 auto;
 }
+
+.hero-container {}
 
 .hero-title {
     color: #FFFFFF;
